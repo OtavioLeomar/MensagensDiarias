@@ -107,7 +107,7 @@ function texto6() {
 function texto7() {
   Swal.fire({
     title: 'Descobrimento',
-    width:'350px',
+    width: '350px',
     html:
       '"Descobri hoje um grande poder oculto;' +
       ' <br>Um dom de fênix para renascer das minhas próprias cinzas,' +
@@ -202,3 +202,71 @@ function texto8() {
 
   })
 }
+
+function texto9() {
+  Swal.fire({
+    imageUrl: 'midias/surtou.jpg',
+    imageWidth: 250,
+    imageHeight: 350,
+    imageAlt: 'Custom image',
+    footer: '<em>Com amor, Van Gogh</em>',
+    showClass: {
+      popup: 'animate__animated animate__fadeInDown'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__fadeOutUp'
+    }
+
+  })
+}
+
+function texto10() {
+  Swal.fire({
+    imageUrl: 'midias/amor.png',
+    imageWidth: 300,
+    imageHeight: 300,
+    imageAlt: 'Custom image',
+    html: '"https://www.youtube.com/watch?v=QW0i1U4u0KE"',
+    footer: '<em>A banda mais bonita da cidade</em>',
+    showClass: {
+      popup: 'animate__animated animate__fadeInDown'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__fadeOutUp'
+    }
+
+  })
+}
+
+function texto11() {
+  Swal.fire({
+    title: 'Viagens',
+    html:
+      '"A tristeza é passageira. <br>E , na viagem da minha vida, decidi que não sentaria com ela."',
+    footer: '<em>Desconhecido</em>',
+    showClass: {
+      popup: 'animate__animated animate__fadeInDown'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__fadeOutUp'
+    }
+
+  })
+}
+
+function texto12() {
+  Swal.fire({
+    title: 'Força',
+    html:
+      '"Você passará por coisa que não merece, mas isso irá lhe mostrar o quão forte você é."',
+    footer: '<em>Desconhecido</em>',
+    showClass: {
+      popup: 'animate__animated animate__fadeInDown'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__fadeOutUp'
+    }
+
+  })
+}
+
