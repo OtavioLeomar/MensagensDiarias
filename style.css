@@ -148,7 +148,7 @@ h1+p {
     position: relative;
     transform: rotateX(calc(var(--rX) * 1deg)) rotateY(calc(var(--rY) * 1deg));
 
-    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("midias/vazio.png");
+    background: linear-gradient(hsla(0, 0%, 0%, 0.1), hsla(0, 0%, 0%, 0.1)), url("midias/vazio.png");
     background-position: var(--bX) var(--bY);
     background-size: 40rem auto;
     box-shadow: 0 0 3rem .5rem hsla(0, 0%, 0%, 1);
@@ -174,7 +174,7 @@ h1+p {
     position: relative;
     transform: rotateX(calc(var(--rX) * 1deg)) rotateY(calc(var(--rY) * 1deg));
 
-    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("midias/5.png");
+    background: linear-gradient(hsla(0, 0%, 0%, 0.1), hsla(0, 0%, 0%, 0.1)), url("midias/5.png");
     background-position: var(--bX) var(--bY);
     background-size: 40rem auto;
     box-shadow: 0 0 3rem .5rem hsla(0, 0%, 0%, 1);
@@ -200,7 +200,7 @@ h1+p {
     position: relative;
     transform: rotateX(calc(var(--rX) * 1deg)) rotateY(calc(var(--rY) * 1deg));
 
-    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("midias/6.png");
+    background: linear-gradient(hsla(0, 0%, 0%, 0.1), hsla(0, 0%, 0%, 0.1)), url("midias/6.png");
     background-position: var(--bX) var(--bY);
     background-size: 40rem auto;
     box-shadow: 0 0 3rem .5rem hsla(0, 0%, 0%, 1);
@@ -226,7 +226,7 @@ h1+p {
     position: relative;
     transform: rotateX(calc(var(--rX) * 1deg)) rotateY(calc(var(--rY) * 1deg));
 
-    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("midias/7.png");
+    background: linear-gradient(hsla(0, 0%, 0%, 0.1), hsla(0, 0%, 0%, 0.1)), url("midias/7.png");
     background-position: var(--bX) var(--bY);
     background-size: 40rem auto;
     box-shadow: 0 0 3rem .5rem hsla(0, 0%, 0%, 1);
@@ -252,6 +252,136 @@ h1+p {
     position: relative;
     transform: rotateX(calc(var(--rX) * 1deg)) rotateY(calc(var(--rY) * 1deg));
 
+    background: linear-gradient(hsla(0, 0%, 0%, 0.1), hsla(0, 0%, 0%, 0.1)), url("midias/armadinho.png");
+    background-position: var(--bX) var(--bY);
+    background-size: 40rem auto;
+    box-shadow: 0 0 3rem .5rem hsla(0, 0%, 0%, 1);
+
+    transition: transform .6s 1s;
+}
+
+.image9 .container {
+    --rX: 0;
+    --rY: 0;
+    --bX: 50%;
+    --bY: 80%;
+
+    width: 30rem;
+    height: 36rem;
+    border: 1px solid var(--background-color);
+    border-radius: 1.6rem;
+    padding: 4rem;
+
+    display: flex;
+    align-items: flex-end;
+
+    position: relative;
+    transform: rotateX(calc(var(--rX) * 1deg)) rotateY(calc(var(--rY) * 1deg));
+
+    background: linear-gradient(hsla(0, 0%, 0%, 0.1), hsla(0, 0%, 0%, 0.1)), url("midias/Vangogh.png");
+    background-position: var(--bX) var(--bY);
+    background-size: 40rem auto;
+    box-shadow: 0 0 3rem .5rem hsla(0, 0%, 0%, 1);
+
+    transition: transform .6s 1s;
+}
+
+.image10 .container {
+    --rX: 0;
+    --rY: 0;
+    --bX: 50%;
+    --bY: 80%;
+
+    width: 30rem;
+    height: 36rem;
+    border: 1px solid var(--background-color);
+    border-radius: 1.6rem;
+    padding: 4rem;
+
+    display: flex;
+    align-items: flex-end;
+
+    position: relative;
+    transform: rotateX(calc(var(--rX) * 1deg)) rotateY(calc(var(--rY) * 1deg));
+
+    background: linear-gradient(hsla(0, 0%, 0%, 0.1), hsla(0, 0%, 0%, 0.1)), url("midias/oracao.png");
+    background-position: var(--bX) var(--bY);
+    background-size: 40rem auto;
+    box-shadow: 0 0 3rem .5rem hsla(0, 0%, 0%, 1);
+
+    transition: transform .6s 1s;
+}
+
+.image11 .container {
+    --rX: 0;
+    --rY: 0;
+    --bX: 50%;
+    --bY: 80%;
+
+    width: 30rem;
+    height: 36rem;
+    border: 1px solid var(--background-color);
+    border-radius: 1.6rem;
+    padding: 4rem;
+
+    display: flex;
+    align-items: flex-end;
+
+    position: relative;
+    transform: rotateX(calc(var(--rX) * 1deg)) rotateY(calc(var(--rY) * 1deg));
+
+    background: linear-gradient(hsla(0, 0%, 0%, 0.1), hsla(0, 0%, 0%, 0.1)), url("midias/passageira.png");
+    background-position: var(--bX) var(--bY);
+    background-size: 40rem auto;
+    box-shadow: 0 0 3rem .5rem hsla(0, 0%, 0%, 1);
+
+    transition: transform .6s 1s;
+}
+
+.image12 .container {
+    --rX: 0;
+    --rY: 0;
+    --bX: 50%;
+    --bY: 80%;
+
+    width: 30rem;
+    height: 36rem;
+    border: 1px solid var(--background-color);
+    border-radius: 1.6rem;
+    padding: 4rem;
+
+    display: flex;
+    align-items: flex-end;
+
+    position: relative;
+    transform: rotateX(calc(var(--rX) * 1deg)) rotateY(calc(var(--rY) * 1deg));
+
+    background: linear-gradient(hsla(0, 0%, 0%, 0.1), hsla(0, 0%, 0%, 0.1)), url("midias/storm.webp");
+    background-position: var(--bX) var(--bY);
+    background-size: 40rem auto;
+    box-shadow: 0 0 3rem .5rem hsla(0, 0%, 0%, 1);
+
+    transition: transform .6s 1s;
+}
+
+.image13 .container {
+    --rX: 0;
+    --rY: 0;
+    --bX: 50%;
+    --bY: 80%;
+
+    width: 30rem;
+    height: 36rem;
+    border: 1px solid var(--background-color);
+    border-radius: 1.6rem;
+    padding: 4rem;
+
+    display: flex;
+    align-items: flex-end;
+
+    position: relative;
+    transform: rotateX(calc(var(--rX) * 1deg)) rotateY(calc(var(--rY) * 1deg));
+
     background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("midias/armadinho.png");
     background-position: var(--bX) var(--bY);
     background-size: 40rem auto;
@@ -259,6 +389,33 @@ h1+p {
 
     transition: transform .6s 1s;
 }
+
+.image14 .container {
+    --rX: 0;
+    --rY: 0;
+    --bX: 50%;
+    --bY: 80%;
+
+    width: 30rem;
+    height: 36rem;
+    border: 1px solid var(--background-color);
+    border-radius: 1.6rem;
+    padding: 4rem;
+
+    display: flex;
+    align-items: flex-end;
+
+    position: relative;
+    transform: rotateX(calc(var(--rX) * 1deg)) rotateY(calc(var(--rY) * 1deg));
+
+    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("midias/armadinho.png");
+    background-position: var(--bX) var(--bY);
+    background-size: 40rem auto;
+    box-shadow: 0 0 3rem .5rem hsla(0, 0%, 0%, 1);
+
+    transition: transform .6s 1s;
+}
+
 
 .container::before,
 .container::after {
